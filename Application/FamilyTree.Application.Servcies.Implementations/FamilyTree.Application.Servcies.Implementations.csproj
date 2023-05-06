@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Domain\FamilyTree.Domain.Entities\FamilyTree.Domain.Entities.csproj" />
+    <ProjectReference Include="..\FamilyTree.Application.Servcies\FamilyTree.Application.Servcies.csproj" />
+  </ItemGroup>
+
+</Project>
